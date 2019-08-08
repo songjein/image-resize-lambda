@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   imgUrl = path + '/' + urlencode(filename);
 
   let contentType = undefined;
-  const ext = filename.toLowerCase().split('.')[1]
+  const ext = filename.toLowerCase().split('.').slice(-1)[0];
   if ('gif' == ext) {
     contentType = 'gif'; 
   } else if ('jpg' == ext || 'jpeg' == ext) {
