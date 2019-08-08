@@ -1,0 +1,1 @@
+claudia create --handler lambda.handler --deploy-proxy-api --region ap-northeast-2
