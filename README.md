@@ -2,7 +2,7 @@
 aws lambda용 이미지 리사이즈 서버 코드 (serverless)
 
 ## 접근 주소 형식
-- http://API?url=이미지주소&width=너비&height=높이
+- http://API?url=이미지주소&size=너비x높이
 - 예시: https://abcde.execute-api.ap-northeast-2.amazonaws.com/latest?url=[s3이미지주소.jpeg]&size=100x0
 
 ## IAM 유저 생성 후 ~/.aws/credentials 작성
