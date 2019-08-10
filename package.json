@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.507.0",
     "aws-serverless-express": "^3.3.6",
+    "crypto": "^1.0.1",
     "express": "^4.16.4",
     "request": "^2.88.0",
     "sharp": "^0.21.0",
